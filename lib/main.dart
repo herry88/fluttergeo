@@ -114,10 +114,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
-            Text(
+            const Text(
               'Address',
               style: TextStyle(
                 fontSize: 22.0,
@@ -134,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 });
                 getAddressFromLongLat(position);
               },
-              child: Text('Get Koordinat'),
+              child: const Text('Get Koordinat'),
             ),
           ],
         ),
